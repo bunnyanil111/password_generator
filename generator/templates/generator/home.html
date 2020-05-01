@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anil`s Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>My First Django Project</h1>
+  <p>Random password generator</p> 
+</div>
+
+  
+
+ 
+    <form action="password" align=center >
+    
+    
+        <div class="container">
+    	<div class="well well-sm">SELECT PASSWORD LENGTH: <select name="length">
+    	<option value="1">1</option>
+ 		<option value="2">2</option>
+ 		<option value="3">3</option>
+ 		<option value="4">4</option>
+ 		<option value="5">5</option>
+ 		<option value="6">6</option>
+ 		<option value="7">7</option>
+ 		<option value="8">8</option>
+ 		<option value="9">9</option>
+ 		<option value="0">0</option>
+ 		 </select><br>
+        </div>
+        </div>
+        
+
+
+    <div class="container">
+    <div class="well well-sm">UPPERCASE: <input type="checkbox" name="uppercase"></div>
+    </div>
+     <div class="container">
+    <div class="well well-sm">LOWERCASE: <input type="checkbox" name="lowercase"></div>
+    </div>
+     <div class="container">
+    <div class="well well-sm">NUMBERS: <input type="checkbox" name="numbers"></div>
+    </div>
+     <div class="container">
+    <div class="well well-sm">SPECIALCHARACTERS: <input type="checkbox" name="specialchars"></div>
+    </div>
+    <input type="submit" name="generatepassword">
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <a href="{%url 'about'%}">&nbsp&nbsp About page</a>
+
+      
+    </div>
+   
+  </div>
+</div>
+
+</body>
+</html>
+
+    
